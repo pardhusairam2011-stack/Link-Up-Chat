@@ -22,6 +22,7 @@ Responsive design for different devices
 Auto-scroll to latest messages
 
 🧑‍💻 How to Use
+
 🟢 Creating a Room
 
 Open the HTML file in your browser
