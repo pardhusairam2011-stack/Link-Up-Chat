@@ -1,2 +1,9 @@
-# Link-Up-Chat
-LinkUp Chat is a peer-to-peer web chat app that lets users connect using a simple room code—no server required. Built with HTML, CSS, and WebRTC, it features real-time messaging, a modern UI, and light/dark mode for a smooth, private chatting experience.
+LinkUp Chat is a fully browser-based, peer-to-peer messaging application that enables two users to communicate in real time using a simple room code—without requiring a dedicated backend server or complex deployment setup. The application is built using core web technologies such as HTML, CSS, and JavaScript, and leverages WebRTC (via PeerJS) to establish direct device-to-device communication, ensuring fast, low-latency, and private message exchange.
+
+The core functionality revolves around a room-based connection system where one user generates a unique room code and shares it with another user, who can then join instantly. Once connected, messages are transmitted directly between browsers, reducing reliance on centralized servers and improving privacy. This makes the project an excellent demonstration of modern web communication techniques and decentralized networking concepts.
+
+From a user interface perspective, LinkUp Chat is designed with a clean, modern, and responsive layout. It includes styled chat bubbles for sent and received messages, automatic scrolling for seamless conversation flow, and intuitive controls for creating and joining rooms. The interface is further enhanced with a dynamic light and dark mode toggle, allowing users to switch themes based on preference, with the selected theme stored locally for persistence across sessions.
+
+In addition to its core messaging capabilities, the project highlights several advanced front-end development concepts, including DOM manipulation, event handling, state management, and real-time data flow between connected peers. The use of WebRTC introduces concepts like peer signaling and connection handling, making it a technically rich implementation beyond basic web applications.
+
+Overall, LinkUp Chat serves as a strong portfolio project that combines functionality, performance, and design. It showcases the ability to build real-time applications without traditional server infrastructure, while also demonstrating attention to user experience and modern UI practices.
