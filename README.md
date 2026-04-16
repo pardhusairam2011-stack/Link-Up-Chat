@@ -23,24 +23,24 @@ This architecture ensures that after the initial connection setup, no intermedia
 🔄 Auto Scroll: Automatically scrolls to the latest message for better usability
 🧑‍💻 How to Use
 🟢 Creating a Room
-•Open the chat.html file in your browser (e.g., Chrome or Edge)
-•Click on the “Create Room” button
-•A unique room code (e.g., A1B2C) will be generated and displayed
-•Share this code with the person you want to chat with
+Open the chat.html file in your browser (e.g., Chrome or Edge)
+Click on the “Create Room” button
+A unique room code (e.g., A1B2C) will be generated and displayed
+Share this code with the person you want to chat with
 🔵 Joining a Room
-•Open the same HTML file in another browser or device
-•Enter the shared room code into the input field
-•Click the “Join” button
-•Wait a few seconds for the connection to establish
+Open the same HTML file in another browser or device
+Enter the shared room code into the input field
+Click the “Join” button
+Wait a few seconds for the connection to establish
 💬 Sending Messages
-•Type your message into the input box at the bottom
-•Press Enter or click the Send button
-•Your message will appear on the right side
-•The other user’s messages will appear on the left side
+Type your message into the input box at the bottom
+Press Enter or click the Send button
+Your message will appear on the right side
+The other user’s messages will appear on the left side
 🌗 Switching Themes
-•Click the moon icon (🌙) in the header
-•Toggle between light and dark modes
-•Your preference is saved automatically for future use
+Click the moon icon (🌙) in the header
+Toggle between light and dark modes
+Your preference is saved automatically for future use
 🎨 User Interface Design
 
 The UI of LinkUp Chat is designed to be clean, modern, and user-friendly. The layout is divided into three main sections:
@@ -54,22 +54,22 @@ Messages are styled as chat bubbles, aligned to the left or right depending on t
 The light/dark theme system enhances accessibility and user comfort, especially during prolonged usage.
 
 🧠 Technical Highlights
-•📡 WebRTC Integration: Enables real-time peer-to-peer communication
-•🔗 PeerJS Library: Simplifies connection setup and signaling
-•🧩 DOM Manipulation: Dynamically updates chat messages and UI elements
-•⚡ Event Handling: Handles user inputs, button clicks, and keypress events
-•💾 Local Storage: Stores theme preference for persistent user experience
-•🧱 Modular Code Structure: Organized functions for maintainability and clarity
-•🌍 Advantages of This Approach
-•🚫 No backend server required
-•⚡ Faster communication due to direct connection
-•🔒 Improved privacy (no message storage on servers)
-•💡 Lightweight and easy to deploy (just open an HTML file)
-•⚠️ Limitations
-•🌐 Requires internet for initial connection (signaling)
-•👥 Currently supports only 2 users at a time
-•📶 Connection may depend on network conditions or browser compatibility
-•🌟 Conclusion
+📡 WebRTC Integration: Enables real-time peer-to-peer communication
+🔗 PeerJS Library: Simplifies connection setup and signaling
+🧩 DOM Manipulation: Dynamically updates chat messages and UI elements
+⚡ Event Handling: Handles user inputs, button clicks, and keypress events
+💾 Local Storage: Stores theme preference for persistent user experience
+🧱 Modular Code Structure: Organized functions for maintainability and clarity
+🌍 Advantages of This Approach
+🚫 No backend server required
+⚡ Faster communication due to direct connection
+🔒 Improved privacy (no message storage on servers)
+💡 Lightweight and easy to deploy (just open an HTML file)
+⚠️ Limitations
+🌐 Requires internet for initial connection (signaling)
+👥 Currently supports only 2 users at a time
+📶 Connection may depend on network conditions or browser compatibility
+🌟 Conclusion
 
 LinkUp Chat is a powerful demonstration of how modern web technologies can be used to build real-time applications without relying on traditional server infrastructure. It combines peer-to-peer networking, responsive UI design, and interactive features into a single, easy-to-use application.
 
